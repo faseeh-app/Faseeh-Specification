@@ -1,0 +1,13 @@
+{
+  "attachmentFolderPath": "99 - rsc",
+  "rightToLeft": false,
+  "showFrontmatter": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 95
+  },
+  "promptDelete": false
+}

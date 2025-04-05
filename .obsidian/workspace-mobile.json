@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "50900a7818e8a0f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "09ab7833af4690ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dc18fc5000c685b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Projects/Spare Parts Catalogue App.sync-conflict-20240727-001221-3XP6QRI.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spare Parts Catalogue App.sync-conflict-20240727-001221-3XP6QRI"
+            }
+          },
+          {
+            "id": "061db9362fb3fad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GL_CH_1.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GL_CH_1"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "43c5fbbcc3a66d6b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "060cdcac78d12e43",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "95a4352b078aa762",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "8efe0f3809da9b94",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "72cc41c1a6583aae",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "9b980821a62b00fc",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "8b0d6defacf5ce86",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f630119a3d5e4d7b",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Untitled.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "aff5a26f754dd055",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Untitled.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "a54487a0a78704ed",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Untitled.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "061db9362fb3fad2",
+  "lastOpenFiles": [
+    "01 - Projects/Spare Parts Catalogue App.sync-conflict-20240727-001221-3XP6QRI.md",
+    "Untitled.md",
+    "01 - Projects/Language Learning Toolkit.md",
+    "01 - Projects/Spare Parts Catalogue App.md",
+    "99 - Excalidraw/RO/Drawing 2023-11-08 23.24.02.excalidraw.md",
+    "10 - RO/RO.md",
+    "99 - Excalidraw/RO/Drawing 2023-10-09 20.25.03.excalidraw.md",
+    "10 - TEC/COURS.md",
+    "10 - PP/Projet Personnel.md",
+    "10 - TEC/pdf/S2_TEC_SEANCE_2_02.pdf",
+    "10 - TEC/pdf/S2_TEC_SEANCE_2_01.pdf",
+    "10 - TEC/pdf/S2_TEC_SEANCE_2_03.pdf",
+    "10 - TEC/pdf",
+    "10 - TEC/img/S2_TEC_SEANCE_2_D02.png",
+    "10 - TEC/img/S2_TEC_SEANCE_2_D01_P2.png",
+    "10 - TEC/img/S2_TEC_SEANCE_2_D01_P1.png",
+    "10 - TEC/img/S2_TEC_SEANCE_2_D03.png",
+    "10 - TEC/img",
+    "Excalidraw/Drawing 2024-02-08 00.31.13.excalidraw.md",
+    "Excalidraw",
+    "Excalidraw/Drawing 2023-11-08 22.15.16.excalidraw.md",
+    "Graphes, Modélisation et Algorithmes.md",
+    "Excalidraw/Drawing 2023-11-09 12.45.01.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-09 13.11.37.excalidraw.md",
+    "TEC - Observation.md",
+    "Excalidraw/Drawing 2023-10-17 00.35.39.excalidraw.md",
+    "Graphes, Modélisation et Algorithmes.pdf",
+    "Algèbre/00 - Les espaces vectorielles/Résumé.md",
+    "Algèbre/00 - Les espaces vectorielles/Astuces.md",
+    "Algèbre/00 - Les espaces vectorielles/image.png",
+    "Algèbre/00 - Les espaces vectorielles/Exercices.md",
+    "Analyse/02 - Les fonctions/Résumé.md",
+    "Analyse/01 - Les suites numériques/Résumé.md",
+    "Analyse/02 - Les fonctions",
+    "Analyse/Untitled",
+    "Analyse/01 - Les suites numériques/Astuces.md",
+    "Test.md"
+  ]
+}

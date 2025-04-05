@@ -1,0 +1,272 @@
+{
+  "main": {
+    "id": "f1e56021a0677683",
+    "type": "split",
+    "children": [
+      {
+        "id": "66328cb08d6d9814",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce6c5d97f9ab6b36",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "01 - Projects/Faseeh/Faseeh V2.canvas",
+                "viewState": {
+                  "x": -189.01103415891072,
+                  "y": -386.92451125058943,
+                  "zoom": -1.375307921315049
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Faseeh V2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02ace339a8c7ed24",
+    "type": "split",
+    "children": [
+      {
+        "id": "f60d6c8d64b866fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52be97080f19bb7c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b337606b0460fe07",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7b187fc698b90812",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "32574c0b0945fb52",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 214.5
+  },
+  "right": {
+    "id": "547e2c2a7a2c64e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "f661db6d8f82be5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd7edc55f5275277",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 - Projects/Business Model/Obsidian Business Model Canvas.canvas",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Obsidian Business Model Canvas"
+            }
+          },
+          {
+            "id": "49fc5180a603e25a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 - Projects/Business Model/Obsidian Business Model Canvas.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Obsidian Business Model Canvas"
+            }
+          },
+          {
+            "id": "a013e98f50530377",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "912efcb8b33ceaf6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 - Projects/Business Model/Obsidian Business Model Canvas.canvas"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Obsidian Business Model Canvas"
+            }
+          },
+          {
+            "id": "4b9ec2fb0009e218",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1ec8daf46d10c917",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "01 - Projects/Business Model/Obsidian Business Model Canvas.canvas"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Obsidian Business Model Canvas"
+            }
+          },
+          {
+            "id": "77b429f8315005ff",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "ce6c5d97f9ab6b36",
+  "lastOpenFiles": [
+    "New Bitmap image.bmp",
+    "01 - Projects/Faseeh/Features/Familiarity System.md",
+    "01 - Projects/Faseeh/Faseeh V2.canvas",
+    "01 - Projects/Faseeh/Features/Mouse-over Dictionary.md",
+    "01 - Projects/Faseeh/Features/Spaced Repetition System.md",
+    "00 - Resources/ui_1.png",
+    "00 - Resources/Screenshot 2025-03-14 125704.png",
+    "00 - Resources/Pasted image 20250109124206.png",
+    "00 - Resources/Pasted image 20250109124144.png",
+    "00 - Resources/Pasted image 20250109124136.png",
+    "00 - Resources/Pasted image 20250109124129.png",
+    "00 - Resources/Pasted image 20250109124122.png",
+    "00 - Resources/Pasted image 20250109124107.png",
+    "00 - Resources/Pasted image 20250109124103.png",
+    "00 - Resources/Pasted image 20240927105023.png",
+    "00 - Resources",
+    "01 - Projects/Spare Parts Catalogue/Spare Parts Catalogue App.sync-conflict-20240727-001221-3XP6QRI.md",
+    "01 - Projects/Spare Parts Catalogue/Spare Parts Catalog App.md",
+    "01 - Projects/Spare Parts Catalogue/Spare Parts Canva.canvas",
+    "01 - Projects/Spare Parts Catalogue",
+    "01 - Projects/Medicine Donation",
+    "01 - Projects/Hotkeys Manager App/Hotkeys Manager App.md",
+    "01 - Projects/Hotkeys Manager App",
+    "01 - Projects/Faseeh/Features/Subtitle Generation.md",
+    "01 - Projects/Faseeh/Features/Pronunciation Checker.md",
+    "01 - Projects/Faseeh/Features/Language Units Parser.md",
+    "01 - Projects/Faseeh/Features/Media Importing.md",
+    "01 - Projects/Faseeh/Features/Difficulty Estimation.md",
+    "01 - Projects/Faseeh/Features/Data Organization.md",
+    "01 - Projects/Faseeh/Features/Advanced Media Player-Reader.md",
+    "01 - Projects/Faseeh/Features",
+    "01 - Projects/Faseeh/Faseeh.md",
+    "01 - Projects/Faseeh",
+    "01 - Projects/Facial Lock/Report.md",
+    "01 - Projects/Facial Lock/FacialLock.md",
+    "01 - Projects/Facial Lock",
+    "01 - Projects/Eagle Clone/Eagle Clone.md",
+    "01 - Projects/Eagle Clone",
+    "01 - Projects",
+    "Excalidraw/Drawing 2025-04-05 17.03.29.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-05 16.50.27.excalidraw.md",
+    "Excalidraw",
+    "BlablaConf Talk.md",
+    "prompt_engineering.md",
+    "Oracle - TD 1.md",
+    "DE Partie 1.md",
+    "Ch 1 - Les Bases.md",
+    "Cv.md",
+    "01 - Projects/Business Model/Obsidian Business Model Canvas.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Presentation.canvas"
+  ]
+}
