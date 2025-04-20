@@ -1,675 +1,730 @@
 {
-  "edges": [
-    {
-      "fromNode": "b6a95d02a5fb4a90",
-      "fromSide": "right",
-      "id": "4fe2e4e4216d74c2",
-      "styleAttributes": {
-      },
-      "toNode": "1701eacd2981d8a6",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "b6a95d02a5fb4a90",
-      "fromSide": "bottom",
-      "id": "116d5892085cf794",
-      "styleAttributes": {
-        "pathfindingMethod": null
-      },
-      "toNode": "6be23294cf4a541f",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "4c825855b06cbd83",
-      "fromSide": "top",
-      "id": "d656748e4817b397",
-      "label": "use",
-      "styleAttributes": {
-        "path": "short-dashed",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "76d25ae9966465bc",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "80815854332adf97",
-      "fromSide": "right",
-      "id": "ed07f2f7c46afa20",
-      "label": "use",
-      "styleAttributes": {
-        "path": "short-dashed",
-        "pathfindingMethod": null
-      },
-      "toNode": "76d25ae9966465bc",
-      "toSide": "right"
-    },
-    {
-      "color": "3",
-      "fromNode": "7c109e0cc3bbf01b",
-      "fromSide": "bottom",
-      "id": "0254631feafc658b",
-      "label": "Might Use",
-      "styleAttributes": {
-        "path": "short-dashed",
-        "pathfindingMethod": null
-      },
-      "toNode": "80815854332adf97",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "76d25ae9966465bc",
-      "fromSide": "bottom",
-      "id": "2f0ff715fb34645d",
-      "label": "requires",
-      "styleAttributes": {
-        "path": "short-dashed",
-        "pathfindingMethod": null
-      },
-      "toNode": "55a4478ba3cb6b30",
-      "toSide": "top"
-    },
-    {
-      "color": "5",
-      "fromNode": "80815854332adf97",
-      "fromSide": "bottom",
-      "id": "1d4883f30095b5b9",
-      "label": "Use",
-      "styleAttributes": {
-        "path": "short-dashed"
-      },
-      "toNode": "cba3f9eedf26c915",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "b6a95d02a5fb4a90",
-      "fromSide": "top",
-      "id": "88027096f3efad7f",
-      "styleAttributes": {
-      },
-      "toNode": "92d9511f7b71873c",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "64c2471a886743cd",
-      "fromSide": "right",
-      "id": "f5d8522222e56af8",
-      "label": "FILE\nURL\nTEXT\nHTML",
-      "styleAttributes": {
-      },
-      "toNode": "e4bc3d5778069fdd",
-      "toSide": "left"
-    },
-    {
-      "color": "5",
-      "fromNode": "c294c697e59d9ece",
-      "fromSide": "right",
-      "id": "a8a355cab3cd3c9b",
-      "styleAttributes": {
-        "arrow": "circle",
-        "pathfindingMethod": "direct"
-      },
-      "toNode": "ee5f19d69f75805e",
-      "toSide": "left"
-    },
-    {
-      "color": "5",
-      "fromNode": "c294c697e59d9ece",
-      "fromSide": "right",
-      "id": "94a616a54609db2a",
-      "styleAttributes": {
-        "arrow": "circle",
-        "pathfindingMethod": "direct"
-      },
-      "toNode": "3db94bb3a8712a55",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "780e7074bad52182",
-      "fromSide": "right",
-      "id": "0e0a1c4213d26a83",
-      "styleAttributes": {
-      },
-      "toNode": "c8354962f2af32fe",
-      "toSide": "left"
-    },
-    {
-      "color": "4",
-      "fromNode": "c8354962f2af32fe",
-      "fromSide": "right",
-      "id": "d2e61e1dba9e3d9e",
-      "styleAttributes": {
-        "arrow": "circle",
-        "pathfindingMethod": "direct"
-      },
-      "toNode": "ee5f19d69f75805e",
-      "toSide": "left"
-    },
-    {
-      "color": "4",
-      "fromNode": "c8354962f2af32fe",
-      "fromSide": "right",
-      "id": "2309aef0a3b30a0a",
-      "styleAttributes": {
-        "arrow": "circle",
-        "pathfindingMethod": "direct"
-      },
-      "toNode": "3db94bb3a8712a55",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "2f381ff69624e8f4",
-      "fromSide": "top",
-      "id": "5c6396d5cde9b450",
-      "styleAttributes": {
-        "path": "short-dashed",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "c8354962f2af32fe",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "4007c746093ef52b",
-      "fromSide": "top",
-      "id": "f894653c7f6648e3",
-      "styleAttributes": {
-        "path": "short-dashed",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "c8354962f2af32fe",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "e4bc3d5778069fdd",
-      "fromSide": "bottom",
-      "id": "4e3c2489d0bd30a4",
-      "label": "Store Media",
-      "styleAttributes": {
-      },
-      "toNode": "8ba304f26672e603",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "3db94bb3a8712a55",
-      "fromSide": "right",
-      "id": "547ec055c1c479e0",
-      "styleAttributes": {
-      },
-      "toNode": "a9c9b701df3dae36",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "37af72b7bf68db14",
-      "fromSide": "bottom",
-      "id": "0a216ee2324ba344",
-      "styleAttributes": {
-        "path": "short-dashed",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "a9c9b701df3dae36",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "fc3ee0aa7b8ec208",
-      "fromSide": "bottom",
-      "id": "37c227deaa05e178",
-      "styleAttributes": {
-        "path": "short-dashed",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "a9c9b701df3dae36",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "5e90970599e730ec",
-      "fromSide": "bottom",
-      "id": "8c5792c790cb4b03",
-      "styleAttributes": {
-        "path": "short-dashed",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "a9c9b701df3dae36",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "b1d7158f377f29da",
-      "fromSide": "bottom",
-      "id": "d4306d872d0b3509",
-      "styleAttributes": {
-        "path": "short-dashed",
-        "pathfindingMethod": "square"
-      },
-      "toNode": "a9c9b701df3dae36",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "a9c9b701df3dae36",
-      "fromSide": "bottom",
-      "id": "60f1c7eeb01ae2b4",
-      "label": "Store \nSubtitle + Metadata",
-      "styleAttributes": {
-        "pathfindingMethod": null
-      },
-      "toNode": "8ba304f26672e603",
-      "toSide": "right"
-    }
-  ],
-  "nodes": [
-    {
-      "color": "2",
-      "height": 1760,
-      "id": "92d9511f7b71873c",
-      "label": "Architecture",
-      "type": "group",
-      "width": 2560,
-      "x": -1240,
-      "y": -3080
-    },
-    {
-      "color": "1",
-      "height": 2220,
-      "id": "6be23294cf4a541f",
-      "label": "Features",
-      "styleAttributes": {
-        "border": null
-      },
-      "type": "group",
-      "width": 2000,
-      "x": -960,
-      "y": -720
-    },
-    {
-      "color": "6",
-      "height": 480,
-      "id": "e4bc3d5778069fdd",
-      "label": "Media Importing Process",
-      "type": "group",
-      "width": 920,
-      "x": -800,
-      "y": -2760
-    },
-    {
-      "color": "4",
-      "height": 300,
-      "id": "fb0d3e36ac31090c",
-      "label": "Browser Extension",
-      "type": "group",
-      "width": 480,
-      "x": -760,
-      "y": -2700
-    },
-    {
-      "color": "#4785ff",
-      "height": 80,
-      "id": "b6a95d02a5fb4a90",
-      "styleAttributes": {
-        "border": null,
-        "textAlign": "center"
-      },
-      "text": "## **FASEEH :** Language Learning Toolkit ",
-      "type": "text",
-      "width": 480,
-      "x": -200,
-      "y": -960
-    },
-    {
-      "color": "3",
-      "height": 225,
-      "id": "1701eacd2981d8a6",
-      "styleAttributes": {
-      },
-      "text": "### <span style=\"color:rgb(255, 192, 0)\">**Goals**</span>\n---\n- Overcome the problem of boring language learning materials.\n- Centralize the all the language learning tools in one app with small to no setup.\n- Provide a convenient solution for the user by its variety of tools.\n- Provide a free alternative to existing paid solutions.",
-      "type": "text",
-      "width": 540,
-      "x": 400,
-      "y": -1032
-    },
-    {
-      "color": "6",
-      "file": "01 - Projects/Faseeh/Features/Pronunciation Checker.md",
-      "height": 600,
-      "id": "51f6c1824b2ab78e",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 560,
-      "x": -920,
-      "y": 60
-    },
-    {
-      "color": "6",
-      "file": "01 - Projects/Faseeh/Features/Mouse-over Dictionary.md",
-      "height": 600,
-      "id": "4c825855b06cbd83",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 560,
-      "x": 280,
-      "y": 60
-    },
-    {
-      "color": "6",
-      "file": "01 - Projects/Faseeh/Features/Language Units Parser.md",
-      "height": 600,
-      "id": "55a4478ba3cb6b30",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 560,
-      "x": -320,
-      "y": 60
-    },
-    {
-      "color": "6",
-      "file": "01 - Projects/Faseeh/Features/Spaced Repetition System.md",
-      "height": 560,
-      "id": "cba3f9eedf26c915",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 560,
-      "x": -920,
-      "y": 780
-    },
-    {
-      "color": "6",
-      "file": "01 - Projects/Faseeh/Features/Difficulty Estimation.md",
-      "height": 560,
-      "id": "7c109e0cc3bbf01b",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 560,
-      "x": -320,
-      "y": 780
-    },
-    {
-      "color": "6",
-      "file": "01 - Projects/Faseeh/Features/Familiarity System.md",
-      "height": 560,
-      "id": "80815854332adf97",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 560,
-      "x": 280,
-      "y": 780
-    },
-    {
-      "color": "6",
-      "file": "01 - Projects/Faseeh/Features/Media Importing.md",
-      "height": 600,
-      "id": "22df955b3fbae804",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 560,
-      "x": -920,
-      "y": -660
-    },
-    {
-      "color": "6",
-      "file": "01 - Projects/Faseeh/Features/Subtitle Generation.md",
-      "height": 600,
-      "id": "073b691124ba503a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 560,
-      "x": -320,
-      "y": -660
-    },
-    {
-      "color": "6",
-      "file": "01 - Projects/Faseeh/Features/Advanced Media Player-Reader.md",
-      "height": 600,
-      "id": "76d25ae9966465bc",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 560,
-      "x": 280,
-      "y": -660
-    },
-    {
-      "color": "6",
-      "file": "01 - Projects/Faseeh/Features/Data Organization.md",
-      "height": 560,
-      "id": "a922d8cccb8824b4",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 560,
-      "x": 1240,
-      "y": 80
-    },
-    {
-      "height": 60,
-      "id": "3db94bb3a8712a55",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Video",
-      "type": "text",
-      "width": 260,
-      "x": -160,
-      "y": -2660
-    },
-    {
-      "height": 60,
-      "id": "ee5f19d69f75805e",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Text",
-      "type": "text",
-      "width": 260,
-      "x": -160,
-      "y": -2491
-    },
-    {
-      "height": 60,
-      "id": "780e7074bad52182",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Html",
-      "type": "text",
-      "width": 100,
-      "x": -720,
-      "y": -2660
-    },
-    {
-      "color": "1",
-      "height": 120,
-      "id": "64c2471a886743cd",
-      "styleAttributes": {
-        "shape": "pill",
-        "textAlign": "center"
-      },
-      "text": "## Media ",
-      "type": "text",
-      "width": 240,
-      "x": -1160,
-      "y": -2581
-    },
-    {
-      "color": "6",
-      "height": 60,
-      "id": "a9c9b701df3dae36",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "[[Subtitle Generation]]",
-      "type": "text",
-      "width": 260,
-      "x": 460,
-      "y": -2581
-    },
-    {
-      "color": "4",
-      "height": 60,
-      "id": "37af72b7bf68db14",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "SaaS",
-      "type": "text",
-      "width": 160,
-      "x": 240,
-      "y": -2780
-    },
-    {
-      "color": "1",
-      "height": 60,
-      "id": "fc3ee0aa7b8ec208",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Local Model",
-      "type": "text",
-      "width": 150,
-      "x": 420,
-      "y": -2780
-    },
-    {
-      "color": "1",
-      "height": 60,
-      "id": "5e90970599e730ec",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Subtitle File",
-      "type": "text",
-      "width": 160,
-      "x": 620,
-      "y": -2780
-    },
-    {
-      "color": "4",
-      "height": 60,
-      "id": "b1d7158f377f29da",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Subtitle Database",
-      "type": "text",
-      "width": 160,
-      "x": 800,
-      "y": -2780
-    },
-    {
-      "height": 60,
-      "id": "4007c746093ef52b",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Parser 2",
-      "type": "text",
-      "width": 120,
-      "x": -440,
-      "y": -2551
-    },
-    {
-      "height": 60,
-      "id": "2f381ff69624e8f4",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Parser 1",
-      "type": "text",
-      "width": 120,
-      "x": -580,
-      "y": -2551
-    },
-    {
-      "color": "5",
-      "height": 80,
-      "id": "c294c697e59d9ece",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Manual importing through GUI",
-      "type": "text",
-      "width": 480,
-      "x": -760,
-      "y": -2380
-    },
-    {
-      "color": "#1324aa",
-      "height": 61,
-      "id": "e953a172459bf370",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Plugin Api Port",
-      "type": "text",
-      "width": 260,
-      "x": -580,
-      "y": -2480
-    },
-    {
-      "color": "#1324aa",
-      "height": 60,
-      "id": "12d3e2f91a6dc7bf",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Plugin Api Port",
-      "type": "text",
-      "width": 725,
-      "x": 240,
-      "y": -2860
-    },
-    {
-      "color": "#cccccc",
-      "height": 245,
-      "id": "570c62a465036db5",
-      "styleAttributes": {
-      },
-      "text": "### <span style=\"color:rgb(255, 192, 0)\">⚠️</span> **<span style=\"color:rgb(184, 184, 184)\">Notes</span>** \n---\n- Consider the point of multithreading in Stack choice.\n",
-      "type": "text",
-      "width": 600,
-      "x": -920,
-      "y": -1125
-    },
-    {
-      "color": "6",
-      "height": 60,
-      "id": "675ff1db4f406638",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "[[Media Importing]]",
-      "type": "text",
-      "width": 260,
-      "x": -160,
-      "y": -2830
-    },
-    {
-      "height": 60,
-      "id": "c8354962f2af32fe",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Extract main content",
-      "type": "text",
-      "width": 200,
-      "x": -540,
-      "y": -2660
-    },
-    {
-      "height": 140,
-      "id": "8ba304f26672e603",
-      "styleAttributes": {
-        "shape": "database",
-        "textAlign": "center"
-      },
-      "text": "Database",
-      "type": "text",
-      "width": 180,
-      "x": 60,
-      "y": -2200
-    }
-  ]
+	"edges":[
+		{
+			"fromNode":"b6a95d02a5fb4a90",
+			"fromSide":"right",
+			"id":"4fe2e4e4216d74c2",
+			"styleAttributes":{},
+			"toNode":"1701eacd2981d8a6",
+			"toSide":"left"
+		},
+		{
+			"fromNode":"b6a95d02a5fb4a90",
+			"fromSide":"bottom",
+			"id":"116d5892085cf794",
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
+			"toNode":"6be23294cf4a541f",
+			"toSide":"top"
+		},
+		{
+			"fromNode":"4c825855b06cbd83",
+			"fromSide":"top",
+			"id":"d656748e4817b397",
+			"label":"use",
+			"styleAttributes":{"path":"short-dashed","pathfindingMethod":"square"},
+			"toNode":"76d25ae9966465bc",
+			"toSide":"bottom"
+		},
+		{
+			"color":"3",
+			"fromNode":"7c109e0cc3bbf01b",
+			"fromSide":"bottom",
+			"id":"0254631feafc658b",
+			"label":"Might Use",
+			"styleAttributes":{
+				"path":"short-dashed",
+				"pathfindingMethod":null
+			},
+			"toNode":"80815854332adf97",
+			"toSide":"bottom"
+		},
+		{
+			"fromNode":"76d25ae9966465bc",
+			"fromSide":"bottom",
+			"id":"2f0ff715fb34645d",
+			"label":"requires",
+			"styleAttributes":{
+				"path":"short-dashed",
+				"pathfindingMethod":null
+			},
+			"toNode":"55a4478ba3cb6b30",
+			"toSide":"top"
+		},
+		{
+			"color":"5",
+			"fromNode":"80815854332adf97",
+			"fromSide":"bottom",
+			"id":"1d4883f30095b5b9",
+			"label":"Use",
+			"styleAttributes":{"path":"short-dashed"},
+			"toNode":"cba3f9eedf26c915",
+			"toSide":"bottom"
+		},
+		{
+			"fromNode":"b6a95d02a5fb4a90",
+			"fromSide":"top",
+			"id":"88027096f3efad7f",
+			"styleAttributes":{},
+			"toNode":"92d9511f7b71873c",
+			"toSide":"bottom"
+		},
+		{
+			"fromNode":"64c2471a886743cd",
+			"fromSide":"right",
+			"id":"f5d8522222e56af8",
+			"label":"FILE\nURL\nTEXT\nHTML",
+			"styleAttributes":{},
+			"toNode":"e4bc3d5778069fdd",
+			"toSide":"left"
+		},
+		{
+			"color":"5",
+			"fromNode":"c294c697e59d9ece",
+			"fromSide":"right",
+			"id":"a8a355cab3cd3c9b",
+			"styleAttributes":{"arrow":"circle","pathfindingMethod":"direct"},
+			"toNode":"ee5f19d69f75805e",
+			"toSide":"left"
+		},
+		{
+			"color":"5",
+			"fromNode":"c294c697e59d9ece",
+			"fromSide":"right",
+			"id":"94a616a54609db2a",
+			"styleAttributes":{"arrow":"circle","pathfindingMethod":"direct"},
+			"toNode":"3db94bb3a8712a55",
+			"toSide":"left"
+		},
+		{
+			"fromNode":"780e7074bad52182",
+			"fromSide":"right",
+			"id":"0e0a1c4213d26a83",
+			"styleAttributes":{},
+			"toNode":"c8354962f2af32fe",
+			"toSide":"left"
+		},
+		{
+			"color":"4",
+			"fromNode":"c8354962f2af32fe",
+			"fromSide":"right",
+			"id":"d2e61e1dba9e3d9e",
+			"styleAttributes":{"arrow":"circle","pathfindingMethod":"direct"},
+			"toNode":"ee5f19d69f75805e",
+			"toSide":"left"
+		},
+		{
+			"color":"4",
+			"fromNode":"c8354962f2af32fe",
+			"fromSide":"right",
+			"id":"2309aef0a3b30a0a",
+			"styleAttributes":{"arrow":"circle","pathfindingMethod":"direct"},
+			"toNode":"3db94bb3a8712a55",
+			"toSide":"left"
+		},
+		{
+			"fromNode":"2f381ff69624e8f4",
+			"fromSide":"top",
+			"id":"5c6396d5cde9b450",
+			"styleAttributes":{"path":"short-dashed","pathfindingMethod":"square"},
+			"toNode":"c8354962f2af32fe",
+			"toSide":"bottom"
+		},
+		{
+			"fromNode":"4007c746093ef52b",
+			"fromSide":"top",
+			"id":"f894653c7f6648e3",
+			"styleAttributes":{"path":"short-dashed","pathfindingMethod":"square"},
+			"toNode":"c8354962f2af32fe",
+			"toSide":"bottom"
+		},
+		{
+			"fromNode":"e4bc3d5778069fdd",
+			"fromSide":"bottom",
+			"id":"4e3c2489d0bd30a4",
+			"label":"Store Media",
+			"styleAttributes":{},
+			"toNode":"8ba304f26672e603",
+			"toSide":"left"
+		},
+		{
+			"fromNode":"3db94bb3a8712a55",
+			"fromSide":"right",
+			"id":"547ec055c1c479e0",
+			"styleAttributes":{},
+			"toNode":"a9c9b701df3dae36",
+			"toSide":"left"
+		},
+		{
+			"fromNode":"37af72b7bf68db14",
+			"fromSide":"bottom",
+			"id":"0a216ee2324ba344",
+			"styleAttributes":{"path":"short-dashed","pathfindingMethod":"square"},
+			"toNode":"a9c9b701df3dae36",
+			"toSide":"top"
+		},
+		{
+			"fromNode":"fc3ee0aa7b8ec208",
+			"fromSide":"bottom",
+			"id":"37c227deaa05e178",
+			"styleAttributes":{"path":"short-dashed","pathfindingMethod":"square"},
+			"toNode":"a9c9b701df3dae36",
+			"toSide":"top"
+		},
+		{
+			"fromNode":"5e90970599e730ec",
+			"fromSide":"bottom",
+			"id":"8c5792c790cb4b03",
+			"styleAttributes":{"path":"short-dashed","pathfindingMethod":"square"},
+			"toNode":"a9c9b701df3dae36",
+			"toSide":"top"
+		},
+		{
+			"fromNode":"b1d7158f377f29da",
+			"fromSide":"bottom",
+			"id":"d4306d872d0b3509",
+			"styleAttributes":{"path":"short-dashed","pathfindingMethod":"square"},
+			"toNode":"a9c9b701df3dae36",
+			"toSide":"top"
+		},
+		{
+			"fromNode":"a9c9b701df3dae36",
+			"fromSide":"bottom",
+			"id":"60f1c7eeb01ae2b4",
+			"label":"Store \nSubtitle + Metadata",
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
+			"toNode":"8ba304f26672e603",
+			"toSide":"right"
+		},
+		{
+			"fromNode":"80815854332adf97",
+			"fromSide":"right",
+			"id":"ed07f2f7c46afa20",
+			"label":"use",
+			"styleAttributes":{
+				"path":"short-dashed",
+				"pathfindingMethod":null
+			},
+			"toNode":"76d25ae9966465bc",
+			"toSide":"right"
+		},
+		{
+			"fromNode":"b6a95d02a5fb4a90",
+			"fromSide":"left",
+			"id":"6c216dd374b988b4",
+			"styleAttributes":{},
+			"toNode":"2f9e261ac34a239c",
+			"toSide":"right"
+		},
+		{
+			"color":"2",
+			"fromNode":"0ff764854905f3d2",
+			"fromSide":"bottom",
+			"id":"776e45faaaed7542",
+			"styleAttributes":{},
+			"toNode":"e8ddb0b98a05624d",
+			"toSide":"top"
+		},
+		{
+			"color":"2",
+			"fromNode":"e8ddb0b98a05624d",
+			"fromSide":"bottom",
+			"id":"a8c884f6d638cb91",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toNode":"6a3b468f6b51fff9",
+			"toSide":"top"
+		},
+		{
+			"color":"2",
+			"fromNode":"e8ddb0b98a05624d",
+			"fromSide":"bottom",
+			"id":"2a949764b0126615",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toNode":"12d7dc45a3325599",
+			"toSide":"top"
+		},
+		{
+			"color":"2",
+			"fromNode":"e8ddb0b98a05624d",
+			"fromSide":"bottom",
+			"id":"9444251753213ed4",
+			"styleAttributes":{},
+			"toNode":"b1a430432ded3012",
+			"toSide":"top"
+		},
+		{
+			"fromNode":"6a3b468f6b51fff9",
+			"fromSide":"bottom",
+			"id":"ebb06a047be215be",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toNode":"40a7d8f09bf2cb16",
+			"toSide":"top"
+		}
+	],
+	"nodes":[
+		{
+			"color":"2",
+			"height":1760,
+			"id":"92d9511f7b71873c",
+			"label":"Architecture",
+			"styleAttributes":{},
+			"type":"group",
+			"width":2560,
+			"x":-1240,
+			"y":-3080
+		},
+		{
+			"color":"1",
+			"height":2220,
+			"id":"6be23294cf4a541f",
+			"label":"Features",
+			"styleAttributes":{
+				"border":null
+			},
+			"type":"group",
+			"width":2000,
+			"x":-960,
+			"y":-720
+		},
+		{
+			"color":"4",
+			"height":1080,
+			"id":"2f9e261ac34a239c",
+			"label":"UI Structue",
+			"styleAttributes":{},
+			"type":"group",
+			"width":1480,
+			"x":-2920,
+			"y":-1480
+		},
+		{
+			"color":"6",
+			"height":480,
+			"id":"e4bc3d5778069fdd",
+			"label":"Media Importing Process",
+			"styleAttributes":{},
+			"type":"group",
+			"width":849,
+			"x":-828,
+			"y":-2760
+		},
+		{
+			"color":"4",
+			"height":300,
+			"id":"fb0d3e36ac31090c",
+			"label":"Browser Extension",
+			"styleAttributes":{},
+			"type":"group",
+			"width":443,
+			"x":-791,
+			"y":-2700
+		},
+		{
+			"color":"2",
+			"height":60,
+			"id":"0ff764854905f3d2",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Landing Page",
+			"type":"text",
+			"width":260,
+			"x":-2260,
+			"y":-1430
+		},
+		{
+			"color":"2",
+			"height":60,
+			"id":"e8ddb0b98a05624d",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Authentication",
+			"type":"text",
+			"width":260,
+			"x":-2260,
+			"y":-1320
+		},
+		{
+			"color":"2",
+			"height":60,
+			"id":"b1a430432ded3012",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Discovery",
+			"type":"text",
+			"width":260,
+			"x":-2260,
+			"y":-1180
+		},
+		{
+			"color":"2",
+			"height":60,
+			"id":"6a3b468f6b51fff9",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Dashboard",
+			"type":"text",
+			"width":260,
+			"x":-2640,
+			"y":-1180
+		},
+		{
+			"height":60,
+			"id":"40a7d8f09bf2cb16",
+			"styleAttributes":{
+				"shape":null,
+				"textAlign":"center"
+			},
+			"text":"**Library**\n<sup>`(Imported Media, Collections, ...)`</sup>",
+			"type":"text",
+			"width":260,
+			"x":-2800,
+			"y":-1040
+		},
+		{
+			"file":"01 - Projects/Faseeh/UI/UI Structure.md",
+			"height":620,
+			"id":"7379e4d7b28ea41a",
+			"styleAttributes":{},
+			"type":"file",
+			"width":320,
+			"x":-3260,
+			"y":-1400
+		},
+		{
+			"color":"2",
+			"height":60,
+			"id":"12d7dc45a3325599",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Settings",
+			"type":"text",
+			"width":260,
+			"x":-1860,
+			"y":-1180
+		},
+		{
+			"color":"#1324aa",
+			"height":60,
+			"id":"12d3e2f91a6dc7bf",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Plugin Api Port",
+			"type":"text",
+			"width":669,
+			"x":131,
+			"y":-2860
+		},
+		{
+			"color":"6",
+			"file":"01 - Projects/Faseeh/Features/Media Importing.md",
+			"height":600,
+			"id":"22df955b3fbae804",
+			"styleAttributes":{},
+			"type":"file",
+			"width":560,
+			"x":-920,
+			"y":-660
+		},
+		{
+			"color":"6",
+			"file":"01 - Projects/Faseeh/Features/Subtitle Generation.md",
+			"height":600,
+			"id":"073b691124ba503a",
+			"styleAttributes":{},
+			"type":"file",
+			"width":560,
+			"x":-320,
+			"y":-660
+		},
+		{
+			"color":"6",
+			"file":"01 - Projects/Faseeh/Features/Advanced Media Player-Reader.md",
+			"height":600,
+			"id":"76d25ae9966465bc",
+			"styleAttributes":{},
+			"type":"file",
+			"width":560,
+			"x":280,
+			"y":-660
+		},
+		{
+			"color":"6",
+			"height":60,
+			"id":"675ff1db4f406638",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"[[Media Importing]]",
+			"type":"text",
+			"width":240,
+			"x":-238,
+			"y":-2830
+		},
+		{
+			"color":"4",
+			"height":60,
+			"id":"37af72b7bf68db14",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"SaaS",
+			"type":"text",
+			"width":148,
+			"x":131,
+			"y":-2780
+		},
+		{
+			"color":"1",
+			"height":60,
+			"id":"fc3ee0aa7b8ec208",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Local Model",
+			"type":"text",
+			"width":138,
+			"x":297,
+			"y":-2780
+		},
+		{
+			"color":"6",
+			"height":60,
+			"id":"a9c9b701df3dae36",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"[[Subtitle Generation]]",
+			"type":"text",
+			"width":240,
+			"x":334,
+			"y":-2581
+		},
+		{
+			"color":"1",
+			"height":60,
+			"id":"5e90970599e730ec",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Subtitle File",
+			"type":"text",
+			"width":148,
+			"x":482,
+			"y":-2780
+		},
+		{
+			"color":"6",
+			"file":"01 - Projects/Faseeh/Features/Pronunciation Checker.md",
+			"height":600,
+			"id":"51f6c1824b2ab78e",
+			"styleAttributes":{},
+			"type":"file",
+			"width":560,
+			"x":-920,
+			"y":60
+		},
+		{
+			"color":"6",
+			"file":"01 - Projects/Faseeh/Features/Language Units Parser.md",
+			"height":600,
+			"id":"55a4478ba3cb6b30",
+			"styleAttributes":{},
+			"type":"file",
+			"width":560,
+			"x":-320,
+			"y":60
+		},
+		{
+			"color":"6",
+			"file":"01 - Projects/Faseeh/Features/Mouse-over Dictionary.md",
+			"height":600,
+			"id":"4c825855b06cbd83",
+			"styleAttributes":{},
+			"type":"file",
+			"width":560,
+			"x":280,
+			"y":60
+		},
+		{
+			"color":"6",
+			"file":"01 - Projects/Faseeh/Features/Spaced Repetition System.md",
+			"height":560,
+			"id":"cba3f9eedf26c915",
+			"styleAttributes":{},
+			"type":"file",
+			"width":560,
+			"x":-920,
+			"y":780
+		},
+		{
+			"color":"6",
+			"file":"01 - Projects/Faseeh/Features/Difficulty Estimation.md",
+			"height":560,
+			"id":"7c109e0cc3bbf01b",
+			"styleAttributes":{},
+			"type":"file",
+			"width":560,
+			"x":-320,
+			"y":780
+		},
+		{
+			"color":"6",
+			"file":"01 - Projects/Faseeh/Features/Familiarity System.md",
+			"height":560,
+			"id":"80815854332adf97",
+			"styleAttributes":{},
+			"type":"file",
+			"width":560,
+			"x":280,
+			"y":780
+		},
+		{
+			"color":"6",
+			"file":"01 - Projects/Faseeh/Features/Data Organization.md",
+			"height":560,
+			"id":"a922d8cccb8824b4",
+			"styleAttributes":{},
+			"type":"file",
+			"width":560,
+			"x":1240,
+			"y":80
+		},
+		{
+			"color":"#cccccc",
+			"height":168,
+			"id":"570c62a465036db5",
+			"styleAttributes":{},
+			"text":"### <span style=\"color:rgb(255, 192, 0)\">⚠️</span> **<span style=\"color:rgb(184, 184, 184)\">Notes</span>** \n---\n- Consider the point of multithreading in Stack choice.\n",
+			"type":"text",
+			"width":480,
+			"x":-520,
+			"y":-1200
+		},
+		{
+			"color":"#4785ff",
+			"height":60,
+			"id":"b6a95d02a5fb4a90",
+			"styleAttributes":{
+				"border":null,
+				"textAlign":"center"
+			},
+			"text":"## **FASEEH** : Language Learning Toolkit",
+			"type":"text",
+			"width":480,
+			"x":-200,
+			"y":-960
+		},
+		{
+			"color":"3",
+			"height":225,
+			"id":"1701eacd2981d8a6",
+			"styleAttributes":{},
+			"text":"### <span style=\"color:rgb(255, 192, 0)\">**Goals**</span>\n---\n- Overcome the problem of boring language learning materials.\n- Centralize the all the language learning tools in one app with small to no setup.\n- Provide a convenient solution for the user by its variety of tools.\n- Provide a free alternative to existing paid solutions.",
+			"type":"text",
+			"width":540,
+			"x":400,
+			"y":-1032
+		},
+		{
+			"color":"1",
+			"height":120,
+			"id":"64c2471a886743cd",
+			"styleAttributes":{"shape":"pill","textAlign":"center"},
+			"text":"## Media ",
+			"type":"text",
+			"width":221,
+			"x":-1160,
+			"y":-2581
+		},
+		{
+			"height":60,
+			"id":"780e7074bad52182",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Html",
+			"type":"text",
+			"width":92,
+			"x":-754,
+			"y":-2660
+		},
+		{
+			"color":"5",
+			"height":80,
+			"id":"c294c697e59d9ece",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Manual importing through GUI",
+			"type":"text",
+			"width":443,
+			"x":-791,
+			"y":-2380
+		},
+		{
+			"color":"4",
+			"height":60,
+			"id":"b1d7158f377f29da",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Subtitle Database",
+			"type":"text",
+			"width":148,
+			"x":648,
+			"y":-2780
+		},
+		{
+			"height":60,
+			"id":"2f381ff69624e8f4",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Parser 1",
+			"type":"text",
+			"width":111,
+			"x":-625,
+			"y":-2551
+		},
+		{
+			"height":140,
+			"id":"8ba304f26672e603",
+			"styleAttributes":{"shape":"database","textAlign":"center"},
+			"text":"Database",
+			"type":"text",
+			"width":166,
+			"x":-35,
+			"y":-2200
+		},
+		{
+			"height":60,
+			"id":"ee5f19d69f75805e",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Text",
+			"type":"text",
+			"width":240,
+			"x":-238,
+			"y":-2491
+		},
+		{
+			"color":"#1324aa",
+			"height":61,
+			"id":"e953a172459bf370",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Plugin Api Port",
+			"type":"text",
+			"width":240,
+			"x":-625,
+			"y":-2480
+		},
+		{
+			"height":60,
+			"id":"4007c746093ef52b",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Parser 2",
+			"type":"text",
+			"width":111,
+			"x":-496,
+			"y":-2551
+		},
+		{
+			"height":60,
+			"id":"c8354962f2af32fe",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Extract main content",
+			"type":"text",
+			"width":184,
+			"x":-588,
+			"y":-2660
+		},
+		{
+			"height":60,
+			"id":"3db94bb3a8712a55",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Video",
+			"type":"text",
+			"width":240,
+			"x":-238,
+			"y":-2660
+		}
+	]
 }

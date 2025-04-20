@@ -9,3 +9,4 @@ Estimate the difficulty of the media on two levels :
 	- etc.
 - <span style="font-weight:bold; color:rgb(0, 176, 240)">User-Specific Level : </span> estimate the difficulty of the of the media based on personal data like : 
 	- <span style="font-weight:bold; color:rgb(146, 208, 80)">Familiarity with language units :</span> ratio of known words to unknown words. <sub>[[Familiarity System]]</sub>
+	- 

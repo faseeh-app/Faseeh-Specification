@@ -1,14 +1,13 @@
 [
-  "obsidian-style-settings",
-  "obsidian-excalidraw-plugin",
-  "hotkey-helper",
-  "dynamic-rtl",
-  "obsidian-icon-folder",
-  "obsidian-fullscreen-plugin",
-  "obsidian-hider",
-  "cmenu-plugin",
   "obsidian-text-format",
+  "obsidian-style-settings",
   "colored-text",
+  "cmenu-plugin",
   "advanced-canvas",
-  "image-converter"
+  "obsidian-icon-folder",
+  "hotkey-helper",
+  "obsidian-hider",
+  "obsidian-fullscreen-plugin",
+  "obsidian-excalidraw-plugin",
+  "dynamic-rtl"
 ]

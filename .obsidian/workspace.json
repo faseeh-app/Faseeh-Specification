@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "66328cb08d6d9814",
+        "id": "b048d9b76450b68b",
         "type": "tabs",
         "children": [
           {
-            "id": "ce6c5d97f9ab6b36",
+            "id": "8138b40b8d728421",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "01 - Projects/Faseeh/Faseeh V2.canvas",
+                "file": "01 - Projects/Faseeh/Architecture/Architecture.canvas",
                 "viewState": {
-                  "x": -189.01103415891072,
-                  "y": -386.92451125058943,
-                  "zoom": -1.375307921315049
+                  "x": 750.5858744200954,
+                  "y": -482.8764720831687,
+                  "zoom": -0.6666666666666665
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Faseeh V2"
+              "title": "Architecture"
             }
           }
         ]
@@ -214,11 +214,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ce6c5d97f9ab6b36",
+  "active": "8138b40b8d728421",
   "lastOpenFiles": [
+    "01 - Projects/Faseeh/Architecture/Core/Storage Api.md",
+    "01 - Projects/Faseeh/Architecture/Architecture.canvas",
+    "01 - Projects/Faseeh/Faseeh V2.canvas",
+    "01 - Projects/Faseeh/Features/Advanced Media Player-Reader.md",
+    "01 - Projects/Faseeh/Faseeh.md",
+    "2025-04-05.md",
     "New Bitmap image.bmp",
     "01 - Projects/Faseeh/Features/Familiarity System.md",
-    "01 - Projects/Faseeh/Faseeh V2.canvas",
     "01 - Projects/Faseeh/Features/Mouse-over Dictionary.md",
     "01 - Projects/Faseeh/Features/Spaced Repetition System.md",
     "00 - Resources/ui_1.png",
@@ -230,7 +235,6 @@
     "00 - Resources/Pasted image 20250109124122.png",
     "00 - Resources/Pasted image 20250109124107.png",
     "00 - Resources/Pasted image 20250109124103.png",
-    "00 - Resources/Pasted image 20240927105023.png",
     "00 - Resources",
     "01 - Projects/Spare Parts Catalogue/Spare Parts Catalogue App.sync-conflict-20240727-001221-3XP6QRI.md",
     "01 - Projects/Spare Parts Catalogue/Spare Parts Catalog App.md",
@@ -245,9 +249,7 @@
     "01 - Projects/Faseeh/Features/Media Importing.md",
     "01 - Projects/Faseeh/Features/Difficulty Estimation.md",
     "01 - Projects/Faseeh/Features/Data Organization.md",
-    "01 - Projects/Faseeh/Features/Advanced Media Player-Reader.md",
     "01 - Projects/Faseeh/Features",
-    "01 - Projects/Faseeh/Faseeh.md",
     "01 - Projects/Faseeh",
     "01 - Projects/Facial Lock/Report.md",
     "01 - Projects/Facial Lock/FacialLock.md",
@@ -263,7 +265,6 @@
     "Oracle - TD 1.md",
     "DE Partie 1.md",
     "Ch 1 - Les Bases.md",
-    "Cv.md",
     "01 - Projects/Business Model/Obsidian Business Model Canvas.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",

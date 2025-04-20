@@ -1,0 +1,17 @@
+- Landing Page
+- Authentication 
+- User Dashboard
+	- Statistics (Streak, etc.)
+	- Recent Activities
+	- Personal Library
+- Community
+	  - Search Bar
+	  - Categories (Vocabulary, Plugins, Subtitles, Articles, etc)
+- Settings
+    - Profile Settings
+    - Notification Settings
+    - Account Management
+    - Installed plugins Management
+	    - Active/Deactivate
+	    - Hotkeys
+	    - Options
