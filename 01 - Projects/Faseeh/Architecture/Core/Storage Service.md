@@ -24,17 +24,17 @@ Where ?: Main Process
 > 1.  <span style="color:rgb(0, 176, 240)">**Request:**</span> The Renderer process (UI, Plugin, or Service) needs a storage action `(save data, get data)`.
 > 2.  <span style="color:rgb(0, 176, 240)">**Secure Bridge:**</span> The request goes through the Preload script [[Storage Api]].
 > 3.  <span style="color:rgb(0, 176, 240)">**Transmission:** </span>The request and necessary data are sent from the Renderer to the Main process.
-> 4.  <span style="color:rgb(0, 176, 240)">**Reception:**</span> The `Storage Service` in the Main process receives the request.
-> 5.  <span style="color:rgb(0, 176, 240)">**Execution:**</span> The `Storage Service` performs the requested database and/or filesystem operations `(saves the file, updates the database record)`.
-> 6.  <span style="color:rgb(0, 176, 240)">**Response:**</span> The `Storage Service` prepares the outcome `(success status, requested data, error message)`.
+> 4.  <span style="color:rgb(0, 176, 240)">**Reception:**</span> The [[Storage Service]] in the Main process receives the request.
+> 5.  <span style="color:rgb(0, 176, 240)">**Execution:**</span> The [[Storage Service]] performs the requested database and/or filesystem operations `(saves the file, updates the database record)`.
+> 6.  <span style="color:rgb(0, 176, 240)">**Response:**</span> The [[Storage Service]] prepares the outcome `(success status, requested data, error message)`.
 > 7. <span style="color:rgb(0, 176, 240)"> **Return:**</span> The outcome is sent back from the Main process to the Renderer process.
 > 8.  <span style="color:rgb(0, 176, 240)">**Completion:**</span> The originating component in the Renderer receives the outcome and acts accordingly.
 
 > [!Example]  **Workflow (Optional - External File Change Sync):**
-> 1.  <span style="color:rgb(0, 176, 240)">**Monitoring:**</span> The `Storage Service` (Main process) watches designated application folders for changes made outside the app.
-> 2.  <span style="color:rgb(0, 176, 240)">**Detection:**</span> The `Storage Service` detects changes (additions, deletions, modifications).
-> 3. <span style="color:rgb(0, 176, 240)">**Reconciliation:**</span> The `Storage Service` reconciles the metadata database with the detected changes.
-> 4. <span style="color:rgb(0, 176, 240)">**Notification:**</span> The `Storage Service` may notify the Renderer process of changes via IPC if necessary.
+> 1.  <span style="color:rgb(0, 176, 240)">**Monitoring:**</span> The [[Storage Service]] (Main process) watches designated application folders for changes made outside the app.
+> 2.  <span style="color:rgb(0, 176, 240)">**Detection:**</span> The [[Storage Service]] detects changes (additions, deletions, modifications).
+> 3. <span style="color:rgb(0, 176, 240)">**Reconciliation:**</span> The [[Storage Service]] reconciles the metadata database with the detected changes.
+> 4. <span style="color:rgb(0, 176, 240)">**Notification:**</span> The [[Storage Service]] may notify the Renderer process of changes via IPC if necessary.
 > 5. <span style="color:rgb(0, 176, 240)">**UI Update:**</span> The Renderer process updates the UI based on the reconciled data.
 
 > [!FAQ] Potential Directory Structure

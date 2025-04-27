@@ -27,4 +27,4 @@ Where ?: Main Process
 > 4.  Service parses the URI and decodes parameters.
 > 5.  (Optional) If `type=url`, service fetches initial HTML content.
 > 6.  Service emits a `webclip-import-data-received` event to Renderer process.
-> 7. *(Processing continues in Main - See [[Content Adapter Manager]])*
+> 7. *(Processing continues in Main - See [[Content Adapter Registry]])*

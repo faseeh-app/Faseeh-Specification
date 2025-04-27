@@ -29,10 +29,11 @@ Where ?: Renderer Process
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Plugin Unloading:</span> When a plugin is disabled or the application is closing:
 > 	- Retrieve the active plugin instance.
 > 	- Call the plugin instance's `onunload()` method to allow for cleanup.
+> 	- Immediately after onunload completes (or fails), call the internal `pluginInstance._cleanupListeners()` method to automatically unregister all event listeners.
 > 	- Remove the instance from the internal registry.
 > <span style="color:rgb(255, 192, 0)">⚠️ **Consideration :**</span> If a core dependency is unloaded, consider the impact on dependent plugins. It may be simpler to require a restart of the application.
 > ---
-> - <span style="font-weight:bold; color:rgb(146, 208, 80)">API Provision (FaseehApp):</span> Construct and provide the `FaseehApp` API object to each loaded plugin. This object acts as the plugin's interface to Faseeh's core functionalities, wrapping direct calls to Renderer services (like [[Content Adapter Manager]]) and using the Preload [[Storage API]] for secure access to Main process services (like [[Storage Service]]). Crucially includes `plugin.loadData()` and `plugin.saveData()` methods which internally use the Storage API to manage the plugin's specific `data.json`.
+> - <span style="font-weight:bold; color:rgb(146, 208, 80)">API Provision (FaseehApp):</span> Construct and provide the `FaseehApp` API object to each loaded plugin. This object acts as the plugin's interface to Faseeh's core functionalities, wrapping direct calls to Renderer services (like [[Content Adapter Registry]]) and using the Preload [[Storage API]] for secure access to Main process services (like [[Storage Service]]). Crucially includes `plugin.loadData()` and `plugin.saveData()` methods which internally use the Storage API to manage the plugin's specific `data.json`.
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Error Handling:</span> Gracefully handle errors during plugin discovery, loading, execution (`onload`/`onunload`), and unloading. Log errors, notify the user, and potentially automatically disable faulty plugins to prevent application instability.
 > ---
@@ -45,9 +46,9 @@ Where ?: Renderer Process
 >     - **API Exposure:** While `getPlugin` returns the raw instance, i think plugins should expose a cleaner, dedicated API via public methods on their class (e.g., `pluginInstance.getPublicAPI()`) rather than relying on direct access to internal properties/methods.
 
 > [!Example]- Workflow (Loading Enabled Plugins at Startup):
-> 1. **Get Paths:** Request plugins directory path and config file path from Main process via `faseehStorageAPI`.
+> 1. **Get Paths:** Request plugins directory path and config file path from Main process via [[Storage Api]].
 > ---
-> 2. **Read Config:** Read the `enabled-plugins.json` file via `faseehStorageAPI`.
+> 2. **Read Config:** Read the `enabled-plugins.json` file via [[Storage Api]].
 > ---
 > 3. **Scan Directory:** Scan the plugins directory filesystem using [[Storage Api]].
 > ---
@@ -76,7 +77,7 @@ Where ?: Renderer Process
 > ---
 > 3. **Find Instance:** Plugin Manager retrieves the active instance for that plugin ID.
 > ---
-> 4. **Unload:** Call pluginInstance.onunload(). Handle errors.
+> 4. **Unload:** Call `pluginInstance.onunload()`. and then `pluginInstance._cleanupListeners()`.
 > ---
 > 5.  **Remove Instance:** Remove the instance from the internal registry (e.g., activePlugins.delete(pluginId)).
 > ---
@@ -85,3 +86,8 @@ Where ?: Renderer Process
 > 7.  **UI Update:** Signal UI that the plugin is now disabled.
 > ---
 > <span style="color:rgb(255, 192, 0)">⚠️ **Consideration :**</span> Dependent plugins might now fail on next load/reload unless also disabled.
+
+> [!Question]- Why call _cleanupListeners after onunload?
+> 1. **Plugin Control:** The plugin's onunload method might need to perform actions that rely on its listeners still being active (e.g., emitting one final event, checking some state based on a listener's side effect).
+> ---
+> 2. **Orderly Shutdown:** It allows the plugin's custom logic to run first, followed by the guaranteed, automatic cleanup provided by the base class.
