@@ -7,12 +7,12 @@ Type: Core Service
 > [!Note] Description
 > Manages all available text tokenization strategies within Faseeh. It maintains a registry of tokenizers (both built-in and plugin-provided), selects the most appropriate one based on the text's language, and provides a unified interface for other application components to break raw text down into an array of standardized `Token` objects (words, punctuation, etc.) with positional information. This enables language-specific handling, crucial for features like interactive text and dictionary lookups.
 
-#### Key Notes
+## Key Notes
 
 > [!Summary]+ Key Responsibilities:
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Tokenizer Registry Management:</span> Maintains an internal collection of all registered tokenizer implementations, indexed by unique IDs and associated with metadata (supported languages, name, id, ...).
 > ---
-> - <span style="font-weight:bold; color:rgb(146, 208, 80)">Registration Interface (`via FaseehApp`):</span> Exposes a registration function (`app.tokenizers.register`) allowing the core application (for defaults) and plugins (via [[🧩Faseeh Plugin|BasePlugin]]) to add new tokenizers and specify which languages they handle and their priority.
+> - <span style="font-weight:bold; color:rgb(146, 208, 80)">Registration Interface (via [[FaseehApp]] ):</span> Exposes a registration function (`app.tokenizers.register`) allowing the core application (for defaults) and plugins (via [[Base Plugin|BasePlugin]]) to add new tokenizers and specify which languages they handle and their priority.
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Core Fallback Tokenizer:</span> Includes at least one built-in, low-priority, language-agnostic tokenizer (e.g., whitespace/punctuation-based) to ensure basic functionality for any language.
 > ---
@@ -38,7 +38,7 @@ Type: Core Service
 > 7.  **Usage:** The Media Player/Reader uses the token array (specifically the `startIndex` and `endIndex` for each token) to render the text with interactive elements (e.g., wrapping words in `<span>` tags for dictionary lookups).
 
 > [!Tip] Integration:
-> - Receives registrations from [[🧩Faseeh Plugin|BasePlugin]] instances via the `FaseehApp.tokenizers.register` facade.
+> - Receives registrations from [[Base Plugin|BasePlugin]] instances via the `FaseehApp.tokenizers.register` facade.
 > - Is utilized by any Renderer component needing to process raw text into interactive or analyzable units (e.g., Player/Reader, potentially search indexing, SRS card generation).
 
 > [!warning] Importance:

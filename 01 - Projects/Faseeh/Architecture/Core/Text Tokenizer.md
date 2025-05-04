@@ -15,7 +15,7 @@ Type: Abstract Function
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Metadata (`TokenizerInfo`):</span> Alongside the function, essential metadata (unique ID, name, supported languages, priority) must be provided during registration. This allows the `Text Tokenizer Registry` to select the correct function based on context.
 > ---
-> - <span style="font-weight:bold; color:rgb(146, 208, 80)">Registration:</span> Implementations (the `TokenizerFunction` + `TokenizerInfo`) are registered with the central `Text Tokenizer Registry` service via the `app.tokenizers.register` method provided by the `FaseehApp` API.
+> - <span style="font-weight:bold; color:rgb(146, 208, 80)">Registration:</span> Implementations (the `TokenizerFunction` + `TokenizerInfo`) are registered with the central `Text Tokenizer Registry` service via the `app.tokenizers.register` method provided by the [[FaseehApp]] API.
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Execution:</span> The `Text Tokenizer Registry` selects the appropriate registered `TokenizerFunction` based on language/priority and executes it when its `tokenizeText` method is called.
 

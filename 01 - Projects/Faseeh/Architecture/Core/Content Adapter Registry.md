@@ -13,7 +13,7 @@ Type: Core Service
 > [!Summary]+ Key Responsibilities:
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Adapter Registry Management:</span> Maintains an internal collection of registered `ContentAdapterRegistration` objects (which include adapter metadata and the `adapt` function or adapter class constructor). Indexed for efficient lookup.
 > ---
-> - <span style="font-weight:bold; color:rgb(146, 208, 80)">Registration Interface (`via FaseehApp`):</span> Exposes `app.contentAdapters.register` / `unregister` methods allowing core app and plugins to add/remove adapters, specifying their capabilities (MIME types, extensions, URL patterns, priority).
+> - <span style="font-weight:bold; color:rgb(146, 208, 80)">Registration Interface (via [[FaseehApp]] ):</span> Exposes `app.contentAdapters.register` / `unregister` methods allowing core app and plugins to add/remove adapters, specifying their capabilities (MIME types, extensions, URL patterns, priority).
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Core Fallback Adapters:</span> Includes built-in, low-priority adapters for basic types (e.g., plain text) ensuring baseline import functionality.
 > ---
@@ -21,7 +21,7 @@ Type: Core Service
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Import Processing Orchestration (`processSource` method):</span> The core public method that takes raw `ContentAdapterSource`. It performs the following steps:
 >     1.  Selects the best adapter based on the source.
->     2.  Prepares necessary context/API access for the adapter (e.g., limited `FaseehApp` access, especially `app.ocrEngines`).
+>     2.  Prepares necessary context/API access for the adapter (e.g., limited [[FaseehApp]] access, especially `app.ocrEngines`).
 >     3.  Invokes the selected adapter's `adapt(source, context)` method asynchronously.
 >     4.  Receives the `ContentAdapterResult`.
 >     5.  **Coordinates Multi-Step Storage (via [[Storage Api]]):** Sequentially calls the necessary `faseehStorageAPI` methods (`saveMediaObject`, `saveDocumentAssets`, `saveContentDocument`, `saveAssociatedFiles`) using the data from the `ContentAdapterResult`, handling dependencies (like needing the `MediaObject` ID before saving related content).

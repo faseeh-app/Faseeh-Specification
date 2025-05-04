@@ -6,7 +6,7 @@ Type: Utility Class
 # Listener Tracker Overview
 
 > [!Note] Description
-> A helper class designed for **core Renderer services and UI components** (which do not inherit from [[🧩Faseeh Plugin|BasePlugin]]) to manage the lifecycle of event listeners they register on the shared [[Event Emitter Wrapper]] instances. It provides a centralized way to track registrations and ensure they are properly cleaned up when the owning service or component is destroyed, preventing memory leaks.
+> A helper class designed for **core Renderer services and UI components** (which do not inherit from [[Base Plugin|BasePlugin]]) to manage the lifecycle of event listeners they register on the shared [[Event Emitter Wrapper]] instances. It provides a centralized way to track registrations and ensure they are properly cleaned up when the owning service or component is destroyed, preventing memory leaks.
 
 #### Key Notes
 
@@ -15,7 +15,7 @@ Type: Utility Class
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Centralized Cleanup (`cleanupAll` method):</span> Offers a `cleanupAll` method that iterates through all tracked listener registrations and calls the appropriate `off` method on the corresponding underlying emitter for each one, effectively unregistering them.
 > ---
-> - <span style="font-weight:bold; color:rgb(146, 208, 80)">Manual Initiation:</span> Unlike the automatic cleanup in [[🧩Faseeh Plugin|BasePlugin]], the cleanup process for listeners managed by [[Listener Tracker]] **must be explicitly initiated** by calling its `cleanupAll` method.
+> - <span style="font-weight:bold; color:rgb(146, 208, 80)">Manual Initiation:</span> Unlike the automatic cleanup in [[Base Plugin|BasePlugin]], the cleanup process for listeners managed by [[Listener Tracker]] **must be explicitly initiated** by calling its `cleanupAll` method.
 > - ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Scope:</span> Each instance of [[Listener Tracker]] manages listeners for the specific core service or UI component instance that creates and owns it.
 
@@ -30,8 +30,8 @@ Type: Utility Class
 > ---
 > 5.  **Unregistration:** The `cleanupAll` method iterates through its tracked registrations and removes each listener from the underlying emitter.
 
-> [!Tip] Key Difference from [[🧩Faseeh Plugin|BasePlugin]]:
-> - [[🧩Faseeh Plugin|BasePlugin]] provides **automatic** cleanup linked to the plugin unload lifecycle, managed by the Plugin Manager.
+> [!Tip] Key Difference from [[Base Plugin|BasePlugin]]:
+> - [[Base Plugin|BasePlugin]] provides **automatic** cleanup linked to the plugin unload lifecycle, managed by the Plugin Manager.
 > - [[Listener Tracker]] requires **manual initiation** of cleanup by the owning service/component code at the appropriate time.
 
 > [!warning] Important Consideration:

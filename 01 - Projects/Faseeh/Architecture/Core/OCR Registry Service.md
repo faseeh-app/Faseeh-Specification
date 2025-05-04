@@ -22,7 +22,7 @@ Type: Core Service
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Engine Discovery & Provision (`getEngineById`, `findBestEngine`):</span> Provides methods for querying registered engines based on ID or criteria (languages, capabilities). Returns **initialized** `BaseOCREngine` instances ready for use.
 > ---
-> - <span style="font-weight:bold; color:rgb(146, 208, 80)">API Exposure (`via FaseehApp`):</span> Exposes its public methods (`register`, `unregister`, `getEngineById`, `findBestEngine`) via the `app.ocrEngines` facade for use by plugins and potentially other core services.
+> - <span style="font-weight:bold; color:rgb(146, 208, 80)">API Exposure (via [[FaseehApp]] ):</span> Exposes its public methods (`register`, `unregister`, `getEngineById`, `findBestEngine`) via the `app.ocrEngines` facade for use by plugins and potentially other core services.
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Core Engine Management:</span> Registers and manages the lifecycle of any default OCR engine(s) provided by Faseeh itself.
 

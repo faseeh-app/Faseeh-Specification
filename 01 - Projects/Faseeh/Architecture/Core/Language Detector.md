@@ -18,7 +18,7 @@ Type: Core Service
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Configuration (Optional):</span> May provide ways to configure detection parameters, such as minimum text length for reliable detection or whitelisting/blacklisting specific languages.
 > ---
-> - <span style="font-weight:bold; color:rgb(146, 208, 80)">API Exposure (`via FaseehApp` or DI):</span> Makes its `detectLanguage` method available to other Renderer services and potentially plugins via Dependency Injection or a facade on the `FaseehApp` object (e.g., `app.languageDetector.detectLanguage(...)`).
+> - <span style="font-weight:bold; color:rgb(146, 208, 80)">API Exposure (via [[FaseehApp]]  or DI):</span> Makes its `detectLanguage` method available to other Renderer services and potentially plugins via Dependency Injection or a facade on the [[FaseehApp]] object (e.g., `app.languageDetector.detectLanguage(...)`).
 
 > [!Example]- Workflow (Content Adapter using Language Detector):
 > 1.  **Adapter Receives Text:** A [[Content Adapter]] processes a source (e.g., pasted text, plain `.txt` file) where language is unknown.

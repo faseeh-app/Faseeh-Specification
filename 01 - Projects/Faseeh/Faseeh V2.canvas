@@ -279,20 +279,6 @@
       "y": -2639
     },
     {
-      "color": "#4785ff",
-      "height": 60,
-      "id": "b6a95d02a5fb4a90",
-      "styleAttributes": {
-        "border": null,
-        "textAlign": "center"
-      },
-      "text": "## **FASEEH** : Language Learning Toolkit",
-      "type": "text",
-      "width": 480,
-      "x": -200,
-      "y": -960
-    },
-    {
       "color": "3",
       "height": 225,
       "id": "1701eacd2981d8a6",
@@ -399,6 +385,20 @@
       "width": 560,
       "x": -920,
       "y": 780
+    },
+    {
+      "color": "#4785ff",
+      "height": 60,
+      "id": "b6a95d02a5fb4a90",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": "center"
+      },
+      "text": "## **FASEEH** : Language Learning Toolkit",
+      "type": "text",
+      "width": 480,
+      "x": -200,
+      "y": -960
     },
     {
       "color": "6",

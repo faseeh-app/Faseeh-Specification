@@ -16,11 +16,11 @@ Where ?: Renderer Process
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Event Payload:</span> Data associated with an event, passed to listeners (e.g., the saved `MediaObject`, the ID of the loaded plugin).
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Listener Registration:</span>
->     - **Plugins:** Use helper methods (e.g., `this.registerEvent(...)`) provided by their [[🧩Faseeh Plugin|BasePlugin class]]. These helpers register listeners on the appropriate **shared emitter instance** (accessed via `this.app`) and enable automatic cleanup.
+>     - **Plugins:** Use helper methods (e.g., `this.registerEvent(...)`) provided by their [[Base Plugin|BasePlugin class]]. These helpers register listeners on the appropriate **shared emitter instance** (accessed via `this.app`) and enable automatic cleanup.
 >     - **Core Services/UI:** Register listeners directly on the **shared emitter instances** (received via Dependency Injection). 
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Listener Cleanup Mechanisms:</span> to prevent memory leaks:
->     - **Plugins:** Handled **automatically** by the [[🧩Faseeh Plugin|BasePlugin]] during its `unload` sequence, using internal tracking initiated by the `registerEvent` helper.
+>     - **Plugins:** Handled **automatically** by the [[Base Plugin|BasePlugin]] during its `unload` sequence, using internal tracking initiated by the `registerEvent` helper.
 >     - **Core Services:** Require **explicit cleanup** using the [[Listener Tracker]] utility class to manage registrations and call `cleanupAll()` during service destruction.
 > 	- **UI:** Manual `off()` calls within framework lifecycle hooks (e.g., `onUnmounted` in Vue).
 > ---
@@ -28,17 +28,17 @@ Where ?: Renderer Process
 > ---
 > - <span style="font-weight:bold; color:rgb(146, 208, 80)">Core Utilities: This system relies on specific utility components:</span>
 > 	- [[Event Emitter Wrapper|EventEmitterWrapper]]: The class implementing the shared emitters, wrapping a library like `mitt` and facilitating the plugin cleanup linkage.
-> 	- [[🧩Faseeh Plugin|Plugin]]: The base class for all plugins, providing `registerEvent` helpers and automatic listener cleanup logic.
+> 	- [[Base Plugin|Plugin]]: The base class for all plugins, providing `registerEvent` helpers and automatic listener cleanup logic.
 > 	- [[Listener Tracker|ListenerTracker]]: A utility class used by core services to manage listener cleanup for their own registrations on the shared emitters.
 
 > [!Question]- Why wrap the underlying event emitter library?
 > Wrapping (using [[Event Emitter Wrapper|EventEmitterWrapper]]) provides:
-> - **Automatic Plugin Cleanup:** Enables [[🧩Faseeh Plugin|BasePlugin]] to reliably track and unregister listeners.
+> - **Automatic Plugin Cleanup:** Enables [[Base Plugin|BasePlugin]] to reliably track and unregister listeners.
 > - **API Abstraction & Stability:** Creates a stable API for Faseeh, allowing internal emitter library changes without breaking plugins/services.
 > - **Controlled Interface:** Allows defining exactly how events are registered and potentially restricting emission.
 
 > [!Example]- Workflow (Plugin Listening):
-> 1.  **Registration:** Plugin's `onload` calls `this.registerEvent(this.app.vaultEvents, 'media:saved', this.onMediaSaved)`. Wrapper registers listener with `vaultEvents`' internal emitter and tracks it via [[🧩Faseeh Plugin|BasePlugin]].
+> 1.  **Registration:** Plugin's `onload` calls `this.registerEvent(this.app.vaultEvents, 'media:saved', this.onMediaSaved)`. Wrapper registers listener with `vaultEvents`' internal emitter and tracks it via [[Base Plugin|BasePlugin]].
 > ---
 > 2.  **Event Occurs:** Core service calls `this.vaultEvents.emit('media:saved', mediaData)` after saving.
 > ---
@@ -67,7 +67,7 @@ Where ?: Renderer Process
 > 5.  **Execution (Renderer):** Plugins and core services listening for `'external-change'` on `vaultEvents` are notified.
 
 > [!warning]- Integration with FaseehApp API:
-> The `FaseehApp` object provided to plugins primarily exposes the **shared [[Event Emitter Wrapper]] instances** for registering listeners:
+> The [[FaseehApp]] object provided to plugins primarily exposes the **shared [[Event Emitter Wrapper]] instances** for registering listeners:
 > - `app.workspaceEvents.on(...)`
 > - `app.vaultEvents.on(...)`
 > - `app.pluginEvents.on(...)`

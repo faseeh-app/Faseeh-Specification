@@ -6,7 +6,7 @@ Type: Abstract Base Class
 # Base Content Adapter Overview
 
 > [!Note] Description
-> An optional base class or interface defining the standard contract for Content Adapters in Faseeh. Its primary purpose is to ensure all adapters implement the core `adapt` method, which takes raw source data and transforms it into a structured `ContentAdapterResult` containing metadata, potentially a `FaseehContentDocument`, extracted assets, and associated files.
+> An optional base class or interface defining the standard contract for Content Adapters in Faseeh. Its primary purpose is to ensure all adapters implement the core `adapt` method, which takes raw source data and transforms it into a structured `ContentAdapterResult` containing metadata, potentially a [[Content Adapter#^205d65|FaseehContentDocument]], extracted assets, and associated files.
 
 ## Key Notes
 
@@ -43,7 +43,7 @@ Type: Abstract Base Class
 > The output from an adapter is a `ContentAdapterResult` object, which contains the processed information ready for storage and use within Faseeh. It includes:
 > - **`mediaObjectData`**: (`Partial<MediaObject>`) Core metadata about the original source (like guessed type, name, language). Some initial metadata might be provided by the triggering service ([[Manual Import Service]] or [[WebClip Import Service]]), and the adapter can enrich or refine it based on the content analysis.
 > ---
-> - **`contentDocument`** (Optional): (`FaseehContentDocument`) A structured representation of the main content, used for complex formats like articles, books, or comics/manga where layout, embedded media, or annotations are important. It contains an ordered list of `ContentBlock`s (text, images, annotations, etc.) and metadata about embedded assets. This field is omitted if the source doesn't have structured content suitable for this format (e.g., a simple audio file or a video URL).
+> - **`contentDocument`** (Optional): ([[Content Adapter#^205d65|FaseehContentDocument]]) A structured representation of the main content, used for complex formats like articles, books, or comics/manga where layout, embedded media, or annotations are important. It contains an ordered list of `ContentBlock`s (text, images, annotations, etc.) and metadata about embedded assets. This field is omitted if the source doesn't have structured content suitable for this format (e.g., a simple audio file or a video URL).
 > ---
 > - **`documentAssets`** (Optional):  A map containing binary assets (like images extracted from an article or PDF pages) that are referenced within the `contentDocument`. The key is an internal `assetId` used within the document's blocks, and the value contains the raw `Buffer` content and format, ready to be saved by the Storage Service.
 > ---
@@ -147,6 +147,8 @@ Type: Abstract Base Class
 >   contentBlocks: ContentBlock[]; // Ordered array of content blocks
 > }
 > ```
+
+^205d65
 
 > [!Summary]- Content Blocks : `ContentBlock` (Union Type)
 > Represents the different types of elements that make up the structured content document. Each specific block type inherits from `BaseBlock`.
@@ -281,7 +283,7 @@ Type: Abstract Base Class
 > };
 > ```
 
-> [!Summary]- Faseeh Application API : `FaseehApp` (Conceptual)
+> [!Summary]- Faseeh Application API : [[FaseehApp]] (Conceptual)
 > Represents the API object passed to adapters or plugins, providing access to necessary core functionalities like OCR engines or storage facades. Referenced here, but defined fully elsewhere.
 > ```ts
 > // Placeholder for FaseehApp type definition (assumed defined elsewhere)
